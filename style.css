@@ -1,0 +1,57 @@
+/*.box1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-bottom: 10px;
+    opacity: 0.5;
+}
+.box2{
+     height: 100px;
+    width: 100px;
+    background-color: green;
+    margin-bottom: 10px;
+    opacity: 1;
+}
+.box1:hover{
+    opacity:1;
+}*/
+body{
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #161616;
+    overflow: hidden;
+    position:fixed;
+    top:0;
+    width: 25%;
+    height: 100%
+}
+/*li{
+    float: left; /*upore nav bar er jono
+}*/
+li a{
+    display:block;
+    text-decoration: none;
+    padding: 15px 10px;
+    color: white;
+}
+li a:hover:not(.active){
+    background-color: blue;
+}
+.active{
+    background: darkgreen;
+}
+.main{
+    margin-left: 26%;
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content a{
+    color:brown;
+    padding: 10px 10px;
+    display: block;
+}
